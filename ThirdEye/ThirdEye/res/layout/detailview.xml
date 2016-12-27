@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dvll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".DetailView" >
+
+      <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#0F5EC6"
+        android:orientation="horizontal" >
+		
+           <Button
+             android:id="@+id/back"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+          	 android:text="Back"></Button>	
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:lines="3"
+            android:text="ThirdEye"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+         <Button
+             android:id="@+id/logoutf"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="50dp"
+             android:layout_marginTop="5dp"
+          	 android:text="Logout"	 />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/detailplace"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textSize="20dp" 
+        android:layout_margin="5dp"
+        android:background="@drawable/round_rect"
+        />
+		
+
+
+     
+  <TextView
+        android:id="@+id/detailtexttitle"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+                 android:textColor="#000000"
+        
+         android:background="@drawable/round_rect"
+ />  
+   <TextView
+        android:id="@+id/detailtext"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:hint="No Message"
+        android:inputType="textMultiLine"
+                 android:textColor="#000000"
+        android:layout_weight="0.1"        
+        android:scrollbars="vertical"
+        android:background="@drawable/round_rect"
+         />
+   <!-- <WebView 
+       android:id="@+id/wv"
+       android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_weight="2.0"
+        android:layout_margin="5dp"/> -->
+
+  <ImageView
+        android:id="@+id/detailImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_weight="2.0"
+        android:layout_margin="5dp"
+        android:background="@drawable/round_rect"
+   />
+
+	<Button
+	    android:id="@+id/play"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="5dp"
+	    android:enabled="false"
+	    android:text="PLAY VIDEO" />
+
+</LinearLayout>

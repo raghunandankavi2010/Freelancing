@@ -1,0 +1,168 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".Login" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+		android:background="@drawable/thirdeye" />
+
+	<LinearLayout
+	    android:id="@+id/linearLayout2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:layout_marginTop="10dp"
+	    android:background="@drawable/round_rect"
+	    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:text="@string/tv_text_login"
+        android:textColor="#000000" />
+	
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/tv_text_username"
+        android:textColor="#000000" />
+    <EditText 
+      	android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:maxLength="40"
+        android:id="@+id/nicknamelin" />
+	 <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+         android:text="@string/tv_text_password"
+        android:textColor="#000000" />
+    <EditText 
+      	android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:maxLength="20"
+        android:password="true" 
+        android:id="@+id/passwordlin" />
+    </LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/ll2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:layout_marginTop="5dp"
+	    android:background="@drawable/round_rect"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical"
+	    android:paddingBottom="10dp" >
+
+		<CheckBox
+		    android:id="@+id/checkBox2"
+		    android:layout_width="40dp"
+		    android:layout_height="40dp"
+		    android:text="CheckBox" />
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#000000" 
+	        android:text="@string/cb_text_use_my_location"/>
+
+	</LinearLayout>
+
+		<LinearLayout
+		    android:id="@+id/ll3"
+		    android:layout_width="fill_parent"
+		    android:layout_height="50dp"
+		    android:layout_marginTop="5dp"
+		    android:orientation="horizontal"
+		    android:gravity="center_horizontal"
+		    android:paddingBottom="5dp" >
+
+		    <Button
+		        android:id="@+id/cancellin"
+		        android:layout_width="140dip"
+		        android:layout_height="40dip"
+		        android:text="@string/bt_text_reset_fields" />
+
+		    <Button
+		        android:id="@+id/savelin"
+		        android:layout_width="140dip"
+		        android:layout_height="40dp"
+		        android:layout_marginLeft="20dip"
+		        android:text="@string/bt_text_login" />
+		</LinearLayout>
+
+		<Button
+		    android:id="@+id/register"
+		    android:layout_width="200dip"
+		    android:layout_height="30dip"
+		    android:layout_gravity="center"
+		    android:textSize="10sp"
+		    android:layout_marginTop="20dip"
+		    android:text="@string/bt_text_new_user_click_here"/>
+
+<!-- 		<LinearLayout
+		    android:id="@+id/ll3"
+		    android:layout_width="fill_parent"
+		    android:layout_height="50dp"
+		    android:layout_marginLeft="10dp"
+		    android:layout_marginRight="10dp"
+		    android:layout_marginTop="0dp"
+		    android:orientation="horizontal"
+		    android:paddingBottom="20dp" >
+
+			<Button
+			    android:id="@+id/buttonlin"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="0dp"
+			    android:text="Tab1" />
+
+			<Button
+			    android:id="@+id/buttonlin"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="5dp"
+			    android:text="Tab2" />
+
+			<Button
+			    android:layout_width="wrap_content"
+			    android:layout_height="50dp"
+			    android:layout_marginLeft="5dp"
+			    android:background="@drawable/round_rect"
+			    android:text="Preference" />
+			<Button
+			    android:layout_width="wrap_content"
+			    android:layout_height="50dp"
+			    android:layout_marginLeft="5dp"
+			    android:background="@drawable/round_rect"
+			    android:text="Logout" />
+			<Button
+			    android:layout_width="wrap_content"
+			    android:layout_height="50dp"
+			    android:layout_marginLeft="5dp"
+			    android:background="@drawable/round_rect"
+			    android:text="More" />
+
+	</LinearLayout> -->
+
+</LinearLayout>
