@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rhymes</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="menu_array">
+        <item>Ane Banthond ANe</item>
+        <item>Share with Friends</item>
+        <item>Share Via Facbook</item>
+        <item>About Sci Fi</item>
+        <item>Another</item>
+     
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+        <string name="description">Media Controls</string>
+        <string name="details">Short Details about the Rhyme.</string>
+        <string name="download">Download</string>
+        <string name="playonline">Play Online</string>
+        <string name="name">Rhyme\'s Name</string>
+        <string name="rating">Average Rating</string>
+        <string name="share">Share With Friends</string>
+        <string name="to">To</string>
+        <string name="cc">CC</string>
+        <string name="bcc">BCC</string>
+        <string name="body">BODY</string>
+        <string name="viamail">Share</string> 
+</resources>
