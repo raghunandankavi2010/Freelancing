@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+   
+    <LinearLayout  android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:background="#A9BCF5">
+      <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+            android:textColor="#000000"
+            android:textSize="14sp"
+           
+            android:textStyle="bold" />
+       <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="House No:"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            
+            android:textStyle="bold" />
+         <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Father :"
+            android:textColor="#000000"
+            android:textSize="14sp"
+           
+            android:textStyle="bold" />
+          <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Sex :"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Part No :"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            
+            android:textStyle="bold" />
+
+       
+
+         
+    </LinearLayout>
+    
+    <LinearLayout  android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F2F5A9">
+     <TextView
+            android:id="@+id/innametextid"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="13sp" /> 
+             <TextView
+            android:id="@+id/inhousenoid"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="13sp" />  
+             <TextView
+            android:id="@+id/infatherid"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+              <TextView
+            android:id="@+id/insexid"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="13sp" /> 
+             <TextView
+            android:id="@+id/inpartid"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="13sp" /> 
+    </LinearLayout>
+
+   <!--  <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background="#A9F5A9"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="Name :"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:gravity="right"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/innametextid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+         android:background="#A9F5E1"
+          android:orientation="vertical"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="House No:"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/inhousenoid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+      
+  </LinearLayout> 
+   -->
+  
+   <!-- <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+          android:background="#A9F5A9"
+           android:orientation="vertical"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Father :"
+            android:textColor="#000000"
+            android:textSize="14sp"
+             android:gravity="right"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/infatherid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+      
+  </LinearLayout> --> 
+   <!-- <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+         android:background="#A9F5E1"
+          android:orientation="vertical"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sex :"
+            android:textColor="#000000"
+            android:textSize="14sp"
+             android:gravity="right"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/insexid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+      
+  </LinearLayout>  -->
+   
+  <!--  <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+         android:background="#A9F5A9"
+          android:orientation="vertical"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Part No :"
+            android:textColor="#000000"
+            android:textSize="14sp"
+             android:gravity="right"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/inpartid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+      
+  </LinearLayout> 
+   -->
+  
+            
+</LinearLayout><!-- From: file:/E:/Android%20Experiments/Karwan/app/src/main/res/layout-sw720dp/intermideaterow.xml -->

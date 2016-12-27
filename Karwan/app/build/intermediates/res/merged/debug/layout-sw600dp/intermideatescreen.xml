@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#000"
+       >
+ <ImageView android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/back_button2"
+            android:layout_margin="5dp"
+            android:id="@+id/homeid"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="7dp"
+            android:text="Voter's List"
+            android:textColor="#ffffff"
+            android:id="@+id/header"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+         <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="7dp"
+                       android:textColor="#ffffff"
+            android:id="@+id/counter"
+            android:textSize="14sp"
+            />
+        
+       
+    </RelativeLayout>
+    <LinearLayout  android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#A4A4A4">
+      <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+            android:textColor="#000000"
+            android:textSize="14sp"
+           
+            android:textStyle="bold" />
+       <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="House No:"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            
+            android:textStyle="bold" />
+         <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Father :"
+            android:textColor="#000000"
+            android:textSize="14sp"
+           
+            android:textStyle="bold" />
+          <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Sex :"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Part No :"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            
+            android:textStyle="bold" />
+
+       
+
+         
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+               android:orientation="vertical" >
+        <ListView
+            android:id="@+id/inlistitem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:scrollbars="none"
+           android:divider="#000000"
+           android:dividerHeight="2dp"
+            android:cacheColorHint="#0000"
+            />
+        
+    
+     
+   </LinearLayout>
+
+       
+   
+
+</LinearLayout><!-- From: file:/E:/Android%20Experiments/Karwan/app/src/main/res/layout-sw600dp/intermideatescreen.xml -->

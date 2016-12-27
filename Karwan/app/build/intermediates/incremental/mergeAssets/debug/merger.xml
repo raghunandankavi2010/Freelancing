@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="21.0.3"><source path="E:\Android Experiments\Karwan\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\assets"/></dataSet><dataSet config="main"><source path="E:\Android Experiments\Karwan\app\src\main\assets"><file name="MyPharma.db" path="E:\Android Experiments\Karwan\app\src\main\assets\MyPharma.db"/></source></dataSet><dataSet config="debug"><source path="E:\Android Experiments\Karwan\app\src\debug\assets"/></dataSet></merger>
