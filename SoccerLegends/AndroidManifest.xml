@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.example.soccerlegends"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".SoccerLegends"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity android:name=".MyApps"
+ 	android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+ <intent-filter>
+  <action android:name="org.example.soccerlegends.MyApps" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  
+  <activity
+  	android:name=".SLegend"
+  	android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+  	  	 <intent-filter>
+  <action android:name="org.example.soccerlegends.SLegend" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  
+  
+    <activity
+  	android:name=".Ndetails"
+  	android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+  	  	 <intent-filter>
+  <action android:name="org.example.soccerlegends.Ndetails" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  
+  
+  <activity
+  	android:name=".SlDetail"
+  	android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+  <intent-filter>
+  <action android:name="org.example.soccerlegends.SlDetail" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>  
+
+
+  <activity
+  	android:name=".WcSpotlight"
+  	android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+  	  	 <intent-filter>
+  <action android:name="org.example.soccerlegends.WcSpotlight" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  
+  <activity
+  	android:name=".WcDetail"
+  	android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+  <intent-filter>
+  <action android:name="org.example.soccerlegends.WcDetail" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>  
+
+
+  <activity
+  	android:name="org.example.soccerlegends.News"
+  	android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+  	 <intent-filter>
+  <action android:name="org.example.soccerlegends.News" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+
+
+  <activity
+  	android:name=".HistorySoccer"
+  	android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+  <intent-filter>
+  <action android:name="org.example.soccerlegends.HistorySoccer" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>  
+
+  <activity
+  	android:name=".AboutUs"
+  	android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+  <intent-filter>
+  <action android:name="org.example.soccerlegends.AboutUs" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>  
+
+  <activity
+  	android:name="org.example.soccerlegends.MessageList"
+  	android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+  	 <intent-filter>
+  <action android:name="org.example.soccerlegends.MessageList" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+
+
+
+  <activity
+  	android:name="org.example.soccerlegends.CustomListView"
+  	android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+  	 <intent-filter>
+  <action android:name="org.example.soccerlegends.CustomListView" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+
+  <activity
+  	android:name=".Detail"
+  	android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+  	  	 <intent-filter>
+  <action android:name="org.example.soccerlegends.Detail" /> 
+  <category android:name="android.intent.category.DEFAULT" /> 
+  </intent-filter>
+  </activity>
+  
+
+    </application>
+    <uses-sdk android:minSdkVersion="5" />
+  <uses-permission android:name="android.permission.INTERNET" /> 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+  
+
+</manifest> 

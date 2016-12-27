@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+   android:background="@drawable/bg">
+  <TextView android:layout_height="wrap_content" android:text="Fund Transfer" android:id="@+id/t1" android:gravity="center_horizontal" android:textColor="#012529" android:textSize="22sp" android:layout_width="fill_parent"></TextView>
+<ImageView android:layout_height="120dp" android:scaleType="fitXY" android:layout_marginRight="3dp" android:id="@+id/imageView11" android:fitsSystemWindows="true" android:src="@drawable/myaccount" android:layout_marginLeft="3dp" android:layout_width="fill_parent"></ImageView>
+<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:orientation="vertical">
+    <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_horizontal" android:text="Transaction Password" android:layout_marginTop="10dp" android:textColor="#012529"></TextView>
+	<EditText android:layout_height="40dp" android:layout_gravity="center_horizontal" android:layout_marginTop="5dp" android:layout_width="180dp" android:id="@+id/tran1" android:password="true"></EditText>
+	
+</LinearLayout>
+<Button android:layout_width="wrap_content" android:layout_marginTop="10dp" android:layout_marginLeft="170dp" android:text="Submit" android:layout_height="47dp" android:id="@+id/submit1"></Button>
+</LinearLayout>

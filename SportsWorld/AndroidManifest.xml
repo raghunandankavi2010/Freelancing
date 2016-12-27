@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.idss.sportsworld" android:versionCode="1"
+	android:versionName="1.0">
+	<application android:icon="@drawable/sportsworld1" android:label="@string/app_name">
+		<activity android:name=".SportsWorld" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.idss.sportsworld.MainMenu"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="com.idss.sportsworld.MainMenu" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+
+		</activity>
+
+		<activity android:name="com.idss.sportsworld.NbaSports"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="com.idss.sportsworld.NbaSports" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.idss.sportsworld.NhlSports"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="com.idss.sportsworld.NhlSports" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.idss.sportsworld.MlbSports"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="com.idss.sportsworld.MlbSports" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.idss.sportsworld.NflSports"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="com.idss.sportsworld.NflSports" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.idss.sportsworld.GolfSports"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="com.idss.sportsworld.GolfSports" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.idss.sportsworld.CricketSports"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="com.idss.sportsworld.CricketSports" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.idss.sportsworld.TennisSports"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="com.idss.sportsworld.TennisSports" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="com.idss.sportsworld.WrestlingSports"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="com.idss.sportsworld.WrestlingSports" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+
+		<activity android:name="com.idss.sportsworld.Detail"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="com.idss.sportsworld.Detail" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+
+
+
+		<activity android:name="com.idss.sportsworld.Ndetails"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="com.idss.sportsworld.Ndetails" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+
+
+		<activity android:name="com.idss.sportsworld.XmlParser"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="com.idss.sportsworld.XmlParser" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		 <activity android:name="com.google.ads.AdActivity"
+                      android:configChanges="keyboard|keyboardHidden|orientation"/>
+                      
+
+	</application>
+	<uses-sdk android:minSdkVersion="3" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+</manifest> 
+ 
+ 

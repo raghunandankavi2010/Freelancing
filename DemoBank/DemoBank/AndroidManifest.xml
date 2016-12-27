@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="idss.bank.demo"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/bank" android:label="@string/app_name">
+        <activity android:name="idss.bank.demo.DemoBank"
+            
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"> 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+      
+             <activity android:name="idss.bank.demo.MyMenu"
+                 android:screenOrientation="portrait"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.MyMenu" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+          <activity android:name="idss.bank.demo.MyAccount"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.MyAccount" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+         <activity android:name="idss.bank.demo.MyLogin"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.MyLogin" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+        <activity android:name="idss.bank.demo.ThisAccount"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.ThisAccount" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+        <activity android:name="idss.bank.demo.FundTransfer"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.FundTransfer" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        
+         <activity android:name="idss.bank.demo.ConfirmTransfer"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.ConfirmTransfer" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        
+        <activity android:name="idss.bank.demo.TransactionPass"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.TransactionPass" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        
+        <activity android:name="idss.bank.demo.Requests"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.Requests" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        
+        
+        <activity android:name="idss.bank.demo.AddressChange"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.AddressChange" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        
+        
+        <activity android:name="idss.bank.demo.ChequeRequest"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.ChequeRequest" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        
+        <activity android:name="idss.bank.demo.AboutBank"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.AboutBank" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        
+        
+        <activity android:name=".MailSenderActivity"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.MailSenderActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    <activity android:name=".FirstTab"/>
+	<activity android:name=".SecondTab"/>
+	
+                           <uses-library android:name="com.google.android.maps"/>
+     
+        <activity android:name="idss.bank.demo.Location"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+                  android:screenOrientation="landscape">			 
+                      <uses-library android:name="com.google.android.maps"/>
+                      <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> 
+                      <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+            <intent-filter>
+                <action android:name="idss.bank.demo.Location" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+	
+	
+	<activity android:name="idss.bank.demo.services"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"> 
+            <intent-filter>
+                <action android:name="idss.bank.demo.services" />
+                <category android:name="android.intent.category.DEFAULT" />	
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="idss.bank.demo.news"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"> 
+            <intent-filter>
+                <action android:name="idss.bank.demo.news" />
+                <category android:name="android.intent.category.DEFAULT" />	
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="idss.bank.demo.servicesdetail"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"> 
+            <intent-filter>
+                <action android:name="idss.bank.demo.servicesdetail" />
+                <category android:name="android.intent.category.DEFAULT" />	
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="idss.bank.demo.newsdetail"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen"> 
+            <intent-filter>
+                <action android:name="idss.bank.demo.newsdetail" />
+                <category android:name="android.intent.category.DEFAULT" />	
+            </intent-filter>
+        </activity>
+        
+	
+
+    </application>
+    	<uses-permission android:name="android.permission.INTERNET" /> 
+    
+</manifest>

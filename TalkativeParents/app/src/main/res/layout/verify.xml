@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/my_awesome_toolbar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/talkativelogo"
+            />
+
+        <EditText
+            android:id="@+id/verifycode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="30dp"
+            android:hint="Enter verification code"
+            android:inputType="number"
+            android:textSize="16sp"/>
+
+        <Button
+
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/verifycode"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/grey"
+            android:text="NEXT"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+</ScrollView>

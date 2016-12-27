@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="proto.idss.maplebear"
+    
+    android:versionCode="1"
+    android:versionName="1.0" 
+    >
+	<supports-screens android:normalScreens="true"
+	    android:largeScreens="true"/>
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="14" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    
+   
+
+    <application
+        android:hardwareAccelerated = "true"
+         android:debuggable="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+         >
+        
+        <activity
+            android:name="proto.idss.maplebear.Splash"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+               android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="proto.idss.maplebear.MainActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+               android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="proto.idss.maplebear.Centers"
+            android:label="MapleBear"
+            android:screenOrientation="portrait" >
+                        <intent-filter>
+                <action android:name="proto.idss.maplebear.Centers" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="proto.idss.maplebear.DetailView"
+            android:label="MapleBear"
+               android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.DetailView" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="proto.idss.maplebear.AboutUs"
+            android:label="MapleBear" >
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.AboutUs" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="proto.idss.maplebear.Curriculum"
+            android:label="MapleBear"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.Curriculum" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="proto.idss.maplebear.ContactUs"
+            android:label="MapleBear"
+               android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.ContactUs" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="proto.idss.maplebear.News"
+            android:label="MapleBear"
+               android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.News" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+             <!--    <activity
+            android:name="proto.idss.maplebear.VideoGallery"
+            android:label="MapleBear" 
+               android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.VideoGallery" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> -->
+              <activity
+            android:name="proto.idss.maplebear.Youtube"
+            android:label="MapleBear"
+               android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.Youtube" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+      
+              <activity
+            android:name="proto.idss.maplebear.Edutainer"
+            android:label="MapleBear"
+               android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.Edutainer" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="proto.idss.maplebear.Image"
+            android:label="MapleBear"
+               android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.Image" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="proto.idss.maplebear.DisplayImage"
+            android:label="MapleBear"
+               android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.DisplayImage" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="proto.idss.maplebear.Facilities"
+            android:label="MapleBear"
+               android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.Facilities" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        <activity
+            android:name="proto.idss.maplebear.OwnSchool"
+            android:label="MapleBear"
+               android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.OwnSchool" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+         <activity
+            android:name="proto.idss.maplebear.AdmissionEnquiry"
+            android:label="MapleBear"
+               android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.AdmissionEnquiry" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+     	         <activity
+            android:name="proto.idss.maplebear.DisplayAlbum"
+            android:label="MapleBear"
+               android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.DisplayAlbum" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+          
+     	         <activity
+            android:name="proto.idss.maplebear.FingerPaintActivity"
+            android:label="MapleBear"
+               android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.FingerPaintActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+                 <activity
+            android:name="proto.idss.maplebear.Games"
+            android:label="MapleBear"
+               android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.Games" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+            <activity
+        		  android:name="proto.idss.maplebear.Manager"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+                  
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.Manager" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+        		  android:name="proto.idss.maplebear.HowToPlay"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+                  
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.HowToPlay" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="proto.idss.maplebear.Categories"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.Categories" /> 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="proto.idss.maplebear.Quiz"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.Quiz" /> 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="proto.idss.maplebear.About"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.About" /> 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="proto.idss.maplebear.Settings"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.Settings" /> 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+     <activity android:name="proto.idss.maplebear.CarouselTestActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="proto.idss.maplebear.CarouselTestActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <uses-library android:name="com.google.android.maps" />
+    </application>
+
+</manifest>

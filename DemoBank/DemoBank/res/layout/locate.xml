@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical" android:gravity="center_vertical" android:background="#312A32" android:layout_width="110dp">  
+<TextView  
+    android:layout_height="wrap_content" 
+    android:id="@+id/text1"
+    android:text="DemoBank 123" android:layout_width="fill_parent" android:textColor="#C9B8CD" android:layout_gravity="center" android:gravity="center" android:paddingBottom="4dp" android:paddingTop="4dp" android:layout_margin="2dp" android:textSize="12sp" android:background="#1D1816"/>
+    <TextView  
+    android:layout_height="wrap_content" 
+    android:text="DemoBank 456"
+    android:layout_width="fill_parent" android:gravity="center_horizontal" android:textColor="#C9B8CD" android:id="@+id/text2" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_margin="2dp" android:textSize="12sp" android:background="#1D1816"/>
+    <TextView  
+    android:layout_height="wrap_content" 
+    android:text="DemoBank 789"
+    android:layout_width="fill_parent" android:gravity="center_horizontal" android:textColor="#C9B8CD" android:id="@+id/text3" android:paddingBottom="4dp" android:paddingTop="4dp" android:layout_margin="2dp" android:textSize="12sp" android:background="#1D1816"/>
+    <TextView  
+    android:layout_height="wrap_content" 
+    android:text="DemoBank 309"
+    android:layout_width="fill_parent" android:gravity="center_horizontal" android:textColor="#C9B8CD" android:id="@+id/text4" android:paddingBottom="4dp" android:paddingTop="4dp" android:layout_margin="2dp" android:textSize="12sp" android:background="#1D1816"/>
+    <TextView  
+    android:layout_height="wrap_content" 
+    android:text="DemoBank 276"
+    android:layout_width="fill_parent" android:gravity="center_horizontal" android:textColor="#C9B8CD" android:id="@+id/text5" android:paddingBottom="4dp" android:paddingTop="4dp" android:layout_margin="2dp" android:textSize="12sp" android:background="#1D1816"/>
+    <TextView  
+    android:layout_height="wrap_content" 
+    android:text="DemoBank 935"
+    android:layout_width="fill_parent" android:gravity="center_horizontal" android:textColor="#C9B8CD" android:id="@+id/text6" android:paddingBottom="4dp" android:paddingTop="4dp" android:layout_margin="2dp" android:textSize="12sp" android:background="#1D1816"/>
+</LinearLayout>
+             <com.google.android.maps.MapView
+                 android:id="@+id/mapview"
+      			 android:enabled="true"
+ 		         android:clickable="true"
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:apiKey="0HMIHLMxQ9AYe3eLw3ELuaolLwFJHq3Sm-U-E2g"
+                 />             
+</LinearLayout>

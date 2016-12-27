@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:orientation="vertical"
+  android:background="@drawable/bg">
+  
+  <TextView android:layout_height="wrap_content" android:text="Requests" android:id="@+id/t1" android:gravity="center_horizontal" android:textColor="#012529" android:textSize="22sp" android:layout_width="fill_parent"></TextView>
+<ImageView android:layout_height="120dp" android:scaleType="fitXY" android:layout_marginRight="3dp" android:id="@+id/imageView11" android:fitsSystemWindows="true" android:src="@drawable/myaccount" android:layout_marginLeft="3dp" android:layout_width="fill_parent"></ImageView>
+<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:paddingLeft="10dp" android:paddingTop="10dp">
+    <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_vertical" android:src="@drawable/rtarrow"></ImageView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:id="@+id/achange" android:text="Change of Address" android:textColor="#281C20" android:paddingLeft="5dp"></TextView>
+</LinearLayout>
+<LinearLayout android:layout_height="wrap_content" android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:paddingLeft="10dp" android:paddingTop="10dp">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/ImageView01" android:layout_height="wrap_content" android:src="@drawable/rtarrow" android:layout_width="wrap_content"></ImageView>
+    <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cheque book Request" android:textColor="#281C20" android:id="@+id/cheque" android:paddingLeft="5dp"></TextView>
+</LinearLayout>
+</LinearLayout>

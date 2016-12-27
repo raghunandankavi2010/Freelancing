@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+ 	android:orientation="horizontal" 
+ 	android:background="@drawable/menuscreen"
+ 	android:padding="30dip"
+ 	android:layout_width="fill_parent" 
+ 	android:layout_height="fill_parent">
+ <!--  <TextView android:layout_width="fill_parent" 
+  	android:layout_height="wrap_content" 
+  	android:text="@string/splash_screen" />  -->
+  	<LinearLayout
+  		android:orientation="vertical"
+  		android:layout_height="wrap_content"
+  		android:layout_width="fill_parent"
+  		android:layout_gravity="center">
+  	<Button
+	android:id="@+id/legends_button"
+	android:layout_marginTop="60dip"		
+	android:layout_width="257px"
+	android:layout_height="37px"
+	android:background="@drawable/legends"/>
+	
+	<Button
+	android:id="@+id/wc_button"
+	android:layout_marginTop="20dip"	
+	android:layout_width="257px"
+	android:layout_height="37px"
+	android:background="@drawable/wcspotlight"/>
+	
+	<Button
+	android:id="@+id/history_button"
+	android:layout_marginTop="20dip"	
+	android:layout_width="257px"
+	android:layout_height="37px"
+	android:background="@drawable/historyofsoccer"/>
+	
+	<Button
+	android:id="@+id/aboutus_button"
+	android:layout_marginTop="20dip"	
+	android:layout_width="257px"
+	android:layout_height="37px"
+	android:background="@drawable/aboutus"/>
+	
+	
+	<Button
+	android:id="@+id/news_button"
+	android:layout_marginTop="20dip"	
+	android:layout_width="257px"
+	android:layout_height="37px"
+	android:background="@drawable/news"/>
+	</LinearLayout>
+  </LinearLayout>

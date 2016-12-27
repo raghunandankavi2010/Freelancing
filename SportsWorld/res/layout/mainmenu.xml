@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:isScrollContainer="true"
+	android:animationCache="true" android:addStatesFromChildren="true" android:background="@drawable/gbg">
+
+
+
+	<LinearLayout android:id="@+id/LinearLayout01"
+		android:orientation="vertical" android:layout_gravity="center"
+		android:layout_marginTop="40dip" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<Button android:id="@+id/nbabutton" android:text="NBA"
+			android:background="@drawable/basketball1" android:layout_gravity="center_horizontal"
+			android:layout_margin="6dip" android:layout_height="38px"
+			android:textStyle="bold" android:textColor="#FFFFFF"
+			android:textSize="16dip" android:layout_width="220px">
+		</Button>
+
+		<Button android:background="@drawable/hockey1" android:id="@+id/nhlbutton"
+			android:text="NHL" android:layout_gravity="center_horizontal"
+			android:layout_margin="6dip" android:layout_height="38px"
+			android:textStyle="bold" android:textColor="#FFFFFF"
+			android:textSize="16dip" android:layout_width="220px">
+		</Button>
+
+		<Button android:background="@drawable/baseball1" android:id="@+id/mlbbutton"
+			android:text="MLB" android:layout_gravity="center_horizontal"
+			android:layout_margin="6dip" android:layout_height="38px"
+			android:textColor="#FFFFFF" android:textStyle="bold"
+			android:textSize="16dip" android:layout_width="220px">
+		</Button>
+
+		<Button android:background="@drawable/football1" android:id="@+id/nflbutton"
+			android:text="NFL" android:layout_gravity="center_horizontal"
+			android:layout_margin="6dip" android:layout_height="38px"
+			android:textColor="#FFFFFF" android:textStyle="bold"
+			android:textSize="16dip" android:layout_width="220px">
+		</Button>
+
+		<Button android:background="@drawable/golf1" android:id="@+id/golfbutton"
+			android:text="GOLF" android:layout_gravity="center_horizontal"
+			android:layout_margin="6dip" android:layout_height="38px"
+			android:textColor="#FFFFFF" android:textStyle="bold"
+			android:textSize="16dip" android:layout_width="220px">
+		</Button>
+
+		<Button android:background="@drawable/cricket1" android:id="@+id/cricketbutton"
+			android:text="CRICKET" android:layout_gravity="center_horizontal"
+			android:layout_margin="6dip" android:layout_height="38px"
+			android:textColor="#FFFFFF" android:textStyle="bold"
+			android:textSize="16dip" android:layout_width="220px">
+		</Button>
+
+		<Button android:background="@drawable/tennis1" android:id="@+id/tennisbutton"
+			android:text="TENNIS" android:layout_gravity="center_horizontal"
+			android:layout_margin="6dip" android:layout_height="38px"
+			android:textColor="#FFFFFF" android:textStyle="bold"
+			android:textSize="16dip" android:layout_width="220px">
+		</Button>
+
+		<Button android:background="@drawable/wrestling1" android:id="@+id/wrestlingbutton"
+			android:text="WRESTLING" android:layout_gravity="center_horizontal"
+			android:layout_margin="6dip" android:layout_height="38px"
+			android:textColor="#FFFFFF" android:textStyle="bold"
+			android:textSize="16dip" android:layout_width="220px">
+		</Button>
+
+	</LinearLayout>
+
+</LinearLayout>

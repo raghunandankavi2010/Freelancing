@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+	android:orientation="vertical" 
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<TextView 
+	
+		android:layout_height="wrap_content" 
+		
+		android:text="how to play: You have to select on how many squares do you want to play the memory game,
+		then on clicking each box shows you the object for about 2 seconds, you have to remeber the position 
+		and the object inside the box, subsequent openings of the boxes should be remebered and matched with the previous objects 
+		the box"
+		
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content" 
+		android:id="@+id/textView1">
+		</TextView>
+
+
+</LinearLayout>

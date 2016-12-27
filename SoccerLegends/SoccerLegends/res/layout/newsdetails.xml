@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+ 	android:orientation="vertical" 
+ 	android:background="@drawable/cbg3"
+ 	android:layout_width="fill_parent" 
+ 	android:layout_height="fill_parent">
+   	  <TextView
+ 	android:id="@+id/backbutton1"
+    android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:background="@drawable/back_button"  	
+	android:gravity="center_vertical"
+	/>
+	  <TextView
+ 	android:id="@+id/stitle"
+    android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+	android:gravity="center_horizontal"
+	 android:textSize="16sp"
+	 android:textStyle="bold" 
+	 android:textColor="#FFFF00"
+	android:layout_toRightOf="@+id/backbutton1"
+	/>
+<LinearLayout
+	 	 android:orientation="vertical"
+ 		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+ 	 	android:id="@+id/detailm" 	
+ 		android:layout_height="fill_parent"
+ 		android:layout_width="fill_parent"
+ 		android:layout_below="@+id/backbutton1"
+ 		>
+ <TextView
+ 	android:id="@+id/detaillink"
+    android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+    android:background="@android:color/transparent"	
+    android:padding="10dip"
+   	android:textColor="#FFBA52"
+    
+	/>
+  	<ScrollView
+ 	 		android:orientation="vertical"
+ 			android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_height="fill_parent"
+ 		android:layout_width="fill_parent">	
+
+ 	<WebView  
+    android:id="@+id/webview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    		android:background="@android:color/transparent"		
+    
+/>
+ 	</ScrollView>
+</LinearLayout>
+
+  </RelativeLayout>

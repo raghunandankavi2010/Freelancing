@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name ="slide"><![CDATA[<html> 
+
+<body> 
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" 
+
+codebase="http://download.macromedia.com/pub/shockwave/
+cabs/flash/swflash.cab#version=6,0,40,0" 
+ 
+width="468" height="60" 
+ id="mymoviename"> 
+
+<param name="movie"  
+
+value="http://www.tizag.com/pics/example.swf" /> 
+ 
+<param name="quality" value="high" /> 
+
+<param name="bgcolor" value="#ffffff" /> 
+
+<embed src="http://picasaweb.google.com/s/c/bin/slideshow.swf" quality="high" bgcolor="#ffffff"
+
+width="468" height="60" 
+
+name="mymoviename" align="" type="application/x-shockwave-flash" 
+
+pluginspage="http://www.macromedia.com/go/getflashplayer"> 
+
+
+</embed> 
+
+</object> 
+
+</body>
+
+</html>  ]]></string>
+	<string name ="facilties"><![CDATA[ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+<p>Art Centre<br />
+</br>
+This centre has painting and drawing materials, scissors, glue, tape and a variety of papers to allow the children to explore and express their feelings and ideas.</p>
+<p>Construction Centre<br />
+</br>
+Blocks and manipulative toys encourage the children to design, create and build.<br />
+</br>
+Dramatic Play Centre<br />
+</br>
+Children with props for playing house, hospital, or store, as well as puppets and dress-up clothes for imaginative play.<br />
+</br>
+<p>Games Centre<br />
+</br>
+Puzzles and table games for the children to share, think, problem solve and develop their small-motor skills.</p>
+</br>
+<p>Library and Listening Centre<br />
+</br>
+Books and tapes to read and to listen to.</p>
+</br>
+<p>Mathematics Centre<br />
+</br>
+Manipulative materials for children to sort, count, classify, measure and learn number sense.<br />
+</br>
+&#160;<br />
+</br>
+Sand and Water Centre<br />
+</br>
+Cups, spoons and funnels allow the children to measure and experiment with volume.<br />
+</br>
+<p>Science and Exploration Centre<br />
+</br>
+Rocks, nests, insects, bones and shells may make their way to this area along with magnets, balances, books and a magnifying glass.</p>
+</br>
+<p>Large Motor Skills<br />
+</br>
+Areas to play games and develop physical skills.<br />
+&#160;<br />
+</br>
+<p>Writing Centre<br />
+</br>
+Stocked with paper, pencils and crayons.</p>
+</body>
+</html>]]> </string>
+    <string name="app_name">MapleBear</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="Enquiry">Admission Enquiry</string>
+        <string name="Own">Own a school</string>
+    <string name="About_us"><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body>
+<p>The Maple Bear Education System™ was developed for CECN Global Schools to bring a Canadian designed early learning program for children to the world. It was created by Canadian experts and is being constantly upgraded to ensure that the Maple Bear Education System reflects the very best in early childhood education.</p>
+<p>CECN Global Schools was established by the Canadian Education Centre Network (CECN) a private non profit company set up in 1995 with the support of Government of Canada dedicated to marketing Canada as destination for international students.</p>
+<p>At Maple Bear we believe that there is nothing more important than our children. The goal of the Maple Bear pre-school is to establish an enthusiasm for learning and knowledge in young learners that will serve as a foundation for future success in the formal education system.</p>
+</body>
+</html> ]]>   
+    </string>
+    <string name="Curriculum"><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<body>
+<p>The goal of MapleBear schools is to establish an enthusiasm for learning and knowledge in young children that will serve as a foundation for future success in the education system and in life. In development of the MapleBear program, we have drawn on the best practices in early childhood teaching and learning.</p>
+<p>Core Curriculum</p>
+<p>MapleBear recognizes that literacy in English is absolutely fundamental to a child\'s success in English medium schools. The ability to read, to understand the written and spoken word, to express oneself in writing and orally are essential to success in all other subjects of study. Language development, books and reading are central to all activities in the program. </p>
+<p>Methodology – Learning Through Experience and Exploration</p>
+<p>The MapleBear Methodology is based on the well established principle that children learn through experience and exploration. When children enter school they regard learning as a pleasurable experience so they are naturally inclined and eager to learn. It is important that the program reinforce and build on this positive attitude by offering varied and stimulating and enjoyable experiences.</p>
+<p>The knowledge and skills that children acquired by the end of kindergarten, along with positive attitudes to learning that children develop in these early years, from the basis of effective learning in the later years of school.</p>
+</body>
+</html> ]]> 
+ </string>
+<string name="add1"><![CDATA[  <p>#41, KR Layout, Opp. Kalyani Magnum Tech Park<br />
+JP Nagar 4th Phase, Bangalore, Karnataka 560076<br />
+E-Mail: info@maplebearbangalore.com<br />
+Phone: 080-2649 2636 <br />
+Mobile: +91- 95353 09090 +91- 95353 09090<br />
+Web: www.maplebearbangalore.com</p> ]]></string>
+<string name="add2"><![CDATA[ <p>#86, 5th Block,Opp BBMP, Koramangala, Bangalore-95 <br />
+E-Mail: kmgla_admin@maplebearbangalore. com <br />
+Phone: 080-41539239 <br />
+Mobile: +91- 9731099100, +91- 9731099100 <br />
+Web: koramangala.maplebearbangalore.com</p>  ]]></string>
+<string name="add3"><![CDATA[ <p>#764,15th main, BTM 2nd stage, Bangalore-5600076 <br />
+E-Mail: btm_admin@maplebearbangalore.com <br />
+Mobile: +91-9900327421, +91-9686430003<br />
+Web: btm.maplebearbangalore.come.com</p>  ]]></string>
+<string name="add4"><![CDATA[#18,17th Cross,Sector-7,HSR Layout, Bangalore-560102 
+Phone: +91 9900495008
+E-Mail: hsr_admin@maplebearbangalore.com 
+Web: hsr.maplebearbangalore.com13   ]]></string>
+<string name="add5"><![CDATA[ <p>No. 208, 1st Main, Indiranagar Bangalore 560072<br />
+Mobile: +91 9538550505<br />
+E-Mail: indiranagar@maplebearbangalore.com<br />
+Web: indiranagar.maplebearbangalore.com</p>  ]]></string>
+<string name="add6"><![CDATA[ <p>#1575,36th Cross,100 ft Ring Road,BSK 2nd stage,<br />
+Near Devegowda Petrol Bunk, Bangalore-71<br />
+E-Mail: bsk_admin@maplebearbangalore.com<br />
+Web: banashankari.maplebearbangalore.com<br />
+Phone: 080-2671 0080, +91-9945 888 000</p>  ]]></string>
+<string name="add7"><![CDATA[ <p>#3348,KR Road,Jayanagar 7th Block Bangalore<br />
+E-Mail: jayanagar_admin@maplebearbangalore.com<br />
+Web: jayanagar.maplebearbangalore.com<br />
+Phone: +91-9844888822</p>  ]]></string>
+<string name="add8"><![CDATA[ <p>#931 3rd C Cross, 9th A Main 1st Block HRBR Layout <br />
+Kalyan Nagar, Bangalore - 43 <br />
+E-Mail: kalyannagar_admin@maplebearbangalore.com<br />
+Mobile: +91-9886222258</p>  ]]></string>
+<string name="add9"><![CDATA[ <p># 14, IAS House, Subbarao Compound,Whitefield Main Road, (Opp to Ganesha Temple)Whitefield, Bangalore – 560066<br />
+Phone: +91 9902338532 / +91 9945085866 / <br />
++91 9900116452/ +91 8095112266/<br />
+E-Mail: whitefield_admin@maplebearbangalore.com<br />
+Web: whitefield.maplebearbangalore.com</p>  ]]></string>
+<string name="add10"><![CDATA[ <p>157-158, 1st Cross, Pai Layout, Hulimavu<br />
+Bannerghatta Road, Bangalore-560 076</p>
+<p>Phone:+91-9964699990, 080- 41170225<br />
+E-Mail: <br />
+bgroad_admin@maplebearbangalore.com<br />
+bgroad@maplebearbangalore.com<br />
+Web: bannerghatta.maplebearbangalore.com</p>  ]]></string>
+<string name="add11"><![CDATA[ <p>11, 2nd Main Road, GM Palaya , CV Raman nagar</p>
+<p>Phone: +91-95351 07689, 080-2524 1729<br />
+Email: gmpalya_admin@maplebearbangalore.com<br />
+Web: gmpalya.maplebearbangalore.com</p>  ]]></string>
+<string name="add12"><![CDATA[ No. 593, 35th main, 16th cross, J.P.Nagar 6th phase, Bangalore 78
+
+Phone: +91-9731366611 
+Email: jpnagar6thphase@maplebearbangalore.com
+Web: jpn6thphase.maplebearbangalore.com  ]]></string>
+<string name="add13"><![CDATA[<p>#260,3rd Cross,Celebrity Paradise Layout,Doddathogur,Electronic City, Bangalore-560100.</p>
+<p>Email: electroniccity@maplebearbangalore.com<br />
+Web: www.maplebearbangalore.com</p>   ]]></string>
+<string name="add14"><![CDATA[<p>&quot;Hongirana&quot;, Old Bank Colony, Rishyashringa Cross Road, Amruthnagar Main Road, <br />
+Off Kanakapura Road Konankunte, Bangalore 560 062.<br />
+Phone: 99000 82820; 99450 44040<br />
+Bangalore 560 062</p>
+<p>Email: kanakapuraroad@maplebearbangalore.com<br />
+Web: kanakapuraroad.maplebearbangalore.com</p>   ]]></string>
+<string name="add15"><![CDATA[ <p>No.527, 60 ft Road, \'F\' Block, <br />
+Sahakarnagar, Bangalore - 560 092</p>
+<p>Email: sahakarnagar@maplebearbangalore.com<br />
+Web: sahakarnagar.maplebearbangalore.com</p>  ]]></string>
+<string name="add16"><![CDATA[ Email: mararthahalli@maplebearbangalore.com
+Web: mararthahalli.maplebearbangalore.com  ]]></string>
+<string-array name="type">
+        <item>New Game</item>
+        <item>4 X 4</item>
+        <item>4 X 5</item>
+        <item>4 X 6</item>
+    </string-array>
+       <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="title_activity_about">About Quizes</string>
+    <string name="title_activity_complete">CompleteActivity</string>
+    <string name="menu_about">About</string>
+    <string name="start_quiz_label">Start Quiz</string>
+    <string name="choose_category">Pick a Category</string>
+    <string name="title_activity_categories">Pick a Category</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="setting_sound_label">Sound</string>
+	<string name="loading_progress_message">Loading assets into database.</string>
+	<string name="loading_progress_title">Creating Database</string>
+	<string name="header_image_content_description">Application Logo</string>
+	<string name="header_title">Fun Quiz for Kids...</string>
+	<string name="header_text">Maths and Animal Sounds</string>
+	<string name="default_content_description">Not Important</string>
+	<string name="show_answer">Show Answer</string>
+	<string name="show_question">Show Question</string>
+	<string name="next">Next</string>
+	<string name="back">Back</string>
+	<string name="next_question">Next Question</string>
+	<string name="progress_template">Question ^1 of ^2</string>
+	<string name="score_template">^1 of ^2 (%^3)</string>
+	<string name="sound_warning">This question has sound, but your volume is set to mute.</string>
+	 
+	<string name="try_again">Try Again</string>
+	<string name="home">Home</string>
+	<string name="complete">Quiz Complete</string>
+	<string name="complete_high_score">High Score!</string>
+	<string name="complete_score_format">You got %1$d of %2$d correct (%3$d%%).</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000">
+
+     <ListView
+        android:id="@+id/lvn"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000000"
+        android:focusableInTouchMode="false"
+        android:listSelector="@android:color/transparent"
+        android:layout_weight="2.0"
+        android:divider="#000000"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        android:dividerHeight="8dp"
+        android:drawSelectorOnTop="false"
+        />
+<Button 
+        android:id="@+id/lvb"
+        android:background="@drawable/listvbkg"
+       
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="GetMore Videos"/>
+</LinearLayout>

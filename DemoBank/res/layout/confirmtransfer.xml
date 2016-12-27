@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:orientation="vertical"
+  android:background="@drawable/bg">
+    <TextView android:layout_height="wrap_content" android:text="Confirm Transfer" android:id="@+id/t1" android:gravity="center_horizontal" android:textColor="#012529" android:textSize="22sp" android:layout_width="fill_parent"></TextView>
+    <ImageView android:layout_height="120dp" android:scaleType="fitXY" android:layout_marginRight="3dp" android:id="@+id/imageView11" android:fitsSystemWindows="true" android:src="@drawable/myaccount" android:layout_marginLeft="3dp" android:layout_width="fill_parent"></ImageView>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:orientation="vertical" android:layout_marginBottom="5dp" android:layout_marginTop="5dp" android:background="#CDCEC7" android:layout_marginLeft="45dp" android:layout_marginRight="45dp" android:paddingBottom="5dp">
+     <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_horizontal" android:text="From Account" android:layout_marginTop="20dp" android:textColor="#012529"></TextView>
+      <TextView android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_width="fill_parent" android:id="@+id/fa" android:textColor="#73422C"></TextView>
+      <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:src="@drawable/downarrow" android:paddingTop="5dp"></ImageView>
+      <TextView android:layout_height="wrap_content" android:id="@+id/TextView02" android:gravity="center_horizontal" android:layout_width="fill_parent" android:text="To Account" android:textColor="#012529"></TextView>
+      <TextView android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_width="fill_parent" android:id="@+id/ta" android:textColor="#73422C"></TextView>
+      <ImageView android:layout_height="wrap_content" android:id="@+id/ImageView01" android:src="@drawable/downarrow" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:paddingTop="5dp"></ImageView>
+      <TextView android:layout_height="wrap_content" android:id="@+id/TextView04" android:gravity="center_horizontal" android:layout_width="fill_parent" android:text="Amount" android:textColor="#012529"></TextView>
+      <TextView android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_width="fill_parent" android:id="@+id/a" android:textColor="#73422C"></TextView>
+      <ImageView android:layout_height="wrap_content" android:id="@+id/ImageView02" android:src="@drawable/downarrow" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:paddingTop="5dp"></ImageView>
+      <TextView android:layout_height="wrap_content" android:id="@+id/TextView06" android:gravity="center_horizontal" android:layout_width="fill_parent" android:text="On Date"  android:textColor="#012529"></TextView>
+      <TextView android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_width="fill_parent" android:id="@+id/dt" android:textColor="#73422C"></TextView>
+      <ImageView android:layout_height="wrap_content" android:id="@+id/confirm" android:layout_width="wrap_content" android:layout_gravity="right" android:paddingTop="6dp" android:paddingRight="5dp" android:src="@drawable/confirmbutton"></ImageView>
+    
+       
+   </LinearLayout>
+       
+  
+</LinearLayout>

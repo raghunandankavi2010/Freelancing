@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+ 	android:orientation="vertical" 
+ 	android:background="@drawable/cbg3"
+ 	android:layout_width="fill_parent" 
+ 	android:layout_height="fill_parent">
+ 
+  	  <TextView
+ 	android:id="@+id/backbutton"
+    android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:background="@drawable/back_button"  	
+	android:gravity="center_vertical"
+	/>
+	  	
+ 	<TextView
+ 	android:id="@+id/title12"
+    android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+	android:layout_marginLeft="60dip"
+	android:textSize="16sp"
+	android:textStyle="bold" 
+	android:textColor="#FFFF00"
+	android:text="WC-Spotlight"
+	android:layout_toRightOf="@+id/backbutton"/>
+ 	
+ 	<LinearLayout
+ 		android:id="@+id/wbcontent"
+ 		android:orientation="vertical"
+ 		android:layout_height="fill_parent"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+ 		android:layout_width="fill_parent"
+ 		android:layout_below="@+id/backbutton">
+ 		
+ 	 	<LinearLayout 
+ 	android:id="@+id/upp"
+ 	android:layout_width="fill_parent" 
+ 	android:layout_height="40dip"
+ 	android:layout_gravity="center_vertical"
+ 	
+ 	android:orientation="horizontal">
+ 	
+ 		  <TextView 
+	  android:text="Year"
+  android:layout_weight="1"
+  	android:textSize="14sp" 
+  	android:textStyle="bold" 
+  	android:textColor="#FF8700" 
+  	  	android:padding="10dip"
+  	android:layout_gravity="center_vertical"
+  	android:layout_width="fill_parent" 
+  	android:layout_height="fill_parent" />
+  	 
+  <TextView android:text="Venue"
+  android:layout_weight="1"
+  	android:textSize="14sp" 
+  	android:textStyle="bold"  
+  	android:textColor="#FF8700" 
+  	  	android:layout_gravity="center_vertical"
+  	  	android:padding="10dip"
+  	
+  	android:layout_width="fill_parent" 
+  	android:layout_height="fill_parent" />
+  	 
+  <TextView android:text="Winner"
+  android:layout_weight="1"
+  	android:textSize="14sp" 
+  	android:textStyle="bold"  
+  	android:textColor="#FF8700" 
+  	  	android:layout_gravity="center_vertical"
+  	  	android:padding="10dip"
+  	
+  	android:layout_width="fill_parent" 
+  	android:layout_height="fill_parent" /> 
+  	
+ 	
+ 	
+ 	</LinearLayout>
+ 	
+  <ListView android:id="@id/android:list" 
+  	android:layout_width="fill_parent" 
+  	android:layout_height="fill_parent" 
+  	android:background="@android:color/transparent" 
+  	android:layout_weight="2" 
+  	android:drawSelectorOnTop="false" /> 
+  <TextView android:id="@id/android:empty" 
+  	android:layout_width="fill_parent" 
+  	android:layout_height="fill_parent" 
+  	android:background="@android:color/transparent" 
+  	android:text="No data" /> 
+
+  	</LinearLayout>
+ 
+  </RelativeLayout>

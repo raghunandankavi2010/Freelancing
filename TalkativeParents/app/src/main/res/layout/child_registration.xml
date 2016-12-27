@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+
+    <EditText
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/my_awesome_toolbar"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/childfirstname"
+        android:hint="Child First Name"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/childfirstname"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastname"
+        android:hint="Child Last Name"
+        android:layout_gravity="center_horizontal"/>
+
+    <RadioGroup
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastname"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Girl"/>
+
+        <RadioButton
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boy"/>
+    </RadioGroup>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/gender"
+        />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DD/MM/YYYY"
+        android:id="@+id/dob"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignRight="@+id/lastname"
+        android:layout_alignEnd="@+id/lastname"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/dob"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="SCHOOL CODE"
+        android:id="@+id/schoolcode"
+        android:hint="Enter School Code"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignRight="@+id/gender"
+        android:layout_alignEnd="@+id/gender"/>
+
+    <Button
+
+        android:textColor="@android:color/white"
+        android:background="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APPLY"
+        android:id="@+id/button3"
+        android:layout_below="@+id/dob"
+        android:layout_alignRight="@+id/dob"
+        android:layout_alignEnd="@+id/dob"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/schoolcode"
+        android:layout_alignLeft="@+id/schoolcode"
+        android:layout_alignStart="@+id/schoolcode"
+        android:layout_marginTop="5dp"
+        android:layout_alignRight="@+id/dob"
+        android:layout_alignEnd="@+id/dob"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:layout_below="@+id/spinner"
+        android:layout_alignLeft="@+id/spinner"
+        android:layout_alignStart="@+id/spinner"
+        android:layout_marginTop="5dp"
+        android:layout_alignRight="@+id/spinner"
+        android:layout_alignEnd="@+id/spinner"/>
+
+    <Button
+        android:background="@color/grey"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/cancel"
+        android:layout_below="@+id/spinner2"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"/>
+
+    <Button
+        android:background="@color/grey"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/save"
+        android:layout_below="@+id/spinner2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="@+id/button4"
+        android:layout_marginRight="56dp"
+        android:layout_marginEnd="56dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/bg">
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:text="Demo Bank" android:gravity="center_horizontal" android:layout_width="fill_parent" android:textSize="25sp" android:textColor="#012529" android:layout_marginTop="5dp"></TextView>
+        <TextView android:id="@+id/textView2" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_width="fill_parent" android:text="Welcome to Demo Bank" android:layout_marginTop="10dp" android:textColor="#B35E22" android:textSize="19sp" android:layout_marginBottom="10dp"></TextView>
+        <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:background="#FF4300" android:orientation="vertical" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+        
+        <TableLayout android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:layout_width="fill_parent">
+            <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:paddingBottom="10dp">
+             <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/TextView01" android:layout_gravity="center" android:textSize="16sp" android:text="Username : " android:textColor="#281C20"></TextView>
+            <EditText android:id="@+id/un" android:layout_width="160dp" android:layout_gravity="center_vertical" android:layout_height="35dp" android:textSize="12sp"></EditText>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal">
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView3" android:layout_gravity="center" android:textSize="16sp" android:text="Password : " android:textColor="#281C20"></TextView>
+            <EditText android:id="@+id/pwd" android:layout_height="35dp" android:layout_width="160dp" android:layout_gravity="center_vertical" android:password="true" android:textSize="12sp"></EditText>
+            </TableRow>            
+        </TableLayout>
+        <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout1">
+            <TextView android:id="@+id/fgpwd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Forgot password?" android:layout_marginLeft="40dp" android:layout_marginTop="25dp" android:textColor="#73422C"></TextView>
+            <TextView android:id="@+id/login" android:layout_height="wrap_content" android:text="Login" android:layout_width="wrap_content" android:layout_marginTop="25dp" android:layout_marginLeft="90dp" android:textColor="#73422C"></TextView>
+        </LinearLayout>
+        </LinearLayout>
+        
+        <TextView android:layout_width="1500dip" android:layout_height="wrap_content" android:id="@+id/anim" android:gravity="bottom" android:singleLine="true"
+android:ellipsize="marquee"
+android:marqueeRepeatLimit="marquee_forever"
+android:focusable="true"
+android:scrollHorizontally="true" android:textSize="15dip"
+android:text="Demo Bank Heartily Welocmes You . Bank on us , we deliver for You" android:layout_marginTop="20dp" android:layout_marginBottom="10dp" android:textColor="#28201A" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+        
+        
+        <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout3" android:layout_width="fill_parent">
+                <ImageView android:id="@+id/imageView1" android:layout_height="120dp" android:layout_width="150dp" android:layout_marginLeft="5dp" android:src="@drawable/i1"></ImageView>
+                <ImageView android:id="@+id/imageView2" android:layout_height="120dp" android:layout_width="150dp" android:layout_marginLeft="5dp" android:src="@drawable/i2"></ImageView>
+        </LinearLayout>
+</LinearLayout>

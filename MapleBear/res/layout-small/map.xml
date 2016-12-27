@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hello"
+        android:textSize="14sp" />
+    
+	 <TextView
+	     android:id="@+id/tv2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_gravity="center"
+	     android:text="................dfsdf.sddddafdsafdsafasdf
+     fdsfdsssssssssssssssssssssssssssssssssssssssss
+     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+	     android:textSize="10sp" />
+
+   <!--  <com.google.android.maps.MapView 
+        android:id="@+id/mapview1"
+        android:layout_width="fill_parent"
+        android:layout_height="450dp"
+        android:enabled="true"
+        android:clickable="true"
+        android:apiKey="0HMIHLMxQ9AaruSuN3DWMhcaF1F1ksTSpR-vFsw"
+        /> -->
+<com.google.android.maps.MapView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mapview"
+    android:layout_width="fill_parent"
+    android:layout_height="420dp"
+    android:clickable="true"
+    android:apiKey="0HMIHLMxQ9AaruSuN3DWMhcaF1F1ksTSpR-vFsw"
+/>
+
+</LinearLayout>

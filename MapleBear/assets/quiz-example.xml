@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>  
+	<category>
+		<!-- The "title" tag is required for all categories -->
+		<title>Math Problems</title>
+		<!-- The "text" tag is optional, and gives some extra text to show in the 
+			list of categories -->
+		<text>Some math problems of varying difficulty</text>
+		<!-- Next come the questions. Note that the children of a "category" tag 
+			can actually come in any order. This xml is just organized for clarity. -->
+		<!-- <question>
+			The question text, required. Notice that you can use html in 
+				 the text, but it has to be escaped.  Instead of escaping it you
+				 can also put it in a CDATA section
+			<text>
+				What is the &lt;i&gt;approximate&lt;/i&gt; square root of 2?
+			</text>
+			Next come the choices. At least one choice is required, and the maximum 
+				that can reasonably fit in a fixed layout is 4. HTML is allowed here as well.
+			<choice>1</choice>
+			<choice>1.634</choice>
+			<choice>1.414</choice>
+			<choice>2</choice>
+			The answer tag contains the zero based index of the correct answer 
+				in the list of choices, in this case 2 for 1.414
+			<answer>2</answer>
+		</question>
+		<question>
+			CDATA is another way to include html tags.
+			<text><![CDATA[Does <b>P</b> equal <b>NP</b>?]]>
+			</text>
+			<choice>Yes</choice>
+			<choice>No</choice>
+			<choice>I don't know</choice>
+			<answer>2</answer>
+		</question> -->
+<question>
+			<!-- CDATA is another way to include html tags. -->
+			<text><![CDATA[7 plus 16 equals ?]]>
+			</text>
+			<choice>22</choice>
+			<choice>23</choice>
+			<choice>24</choice>
+			<answer>1</answer>
+		</question>
+
+<question>
+			<!-- CDATA is another way to include html tags. -->
+			<text><![CDATA[ 4 multiplied by 4 equals ?]]>
+			</text>
+			<choice>15</choice>
+			<choice>13</choice>
+			<choice>16</choice>
+			<answer>2</answer>
+		</question>
+
+<question>
+			<!-- CDATA is another way to include html tags. -->
+			<text><![CDATA[ 17 minus 4 equals ?]]>
+			</text>
+			<choice>12</choice>
+			<choice>13</choice>
+			<choice>10</choice>
+			<answer>1</answer>
+		</question>
+
+<question>
+			<!-- CDATA is another way to include html tags. -->
+			<text><![CDATA[16 divided by 2  equals  ?]]>
+			</text>
+			<choice>7</choice>
+			<choice>9</choice>
+			<choice>8</choice>
+			<answer>2</answer>
+		</question>
+
+<question>
+			<!-- CDATA is another way to include html tags. -->
+			<text><![CDATA[3 multiplied by 6 equals ?]]>
+			</text>
+			<choice>15</choice>
+			<choice>18</choice>
+			<choice>20</choice>
+			<answer>1</answer>
+		</question>
+		
+<question>
+			<!-- CDATA is another way to include html tags. -->
+			<text><![CDATA[What is 1 + 2?]]>
+			</text>
+			<choice>It is 1</choice>
+		    <choice>It is 18</choice>
+		    <choice>It is 16</choice>
+		    <choice>It is 3</choice>
+		    <answer>3</answer>
+
+		</question>
+
+<question>
+			<!-- CDATA is another way to include html tags. -->
+			<text><![CDATA[What is 6 + 6?]]></text>
+			<choice>It is 12</choice>
+		    <choice>It is 19</choice>
+		    <choice>It is 13</choice>
+		    <choice>It is 4</choice>
+		    <answer>0</answer>
+		</question>
+
+<question>
+			<!-- CDATA is another way to include html tags. -->
+			<text><![CDATA[3 multiplied by 2 equals ?]]>
+			</text>
+			<choice>10</choice>
+			<choice>6</choice>
+			<choice>20</choice>
+			<answer>1</answer>
+		</question>
+
+<question>
+			<!-- CDATA is another way to include html tags. -->
+			<text><![CDATA[5 multiplied by 1 equals ?]]>
+			</text>
+			<choice>1</choice>
+			<choice>6</choice>
+			<choice>5</choice>
+			<answer>2</answer>
+		</question>
+
+<question>
+			<!-- CDATA is another way to include html tags. -->
+			<text><![CDATA[ 11 minus 5 equals ?]]>
+			</text>
+			<choice>6</choice>
+			<choice>10</choice>
+			<choice>20</choice>
+			<answer>0</answer>
+		</question>
+		
+	<question>
+    <text>What is 6 + 8?</text>
+    <choice>It is 14</choice>
+    <choice>It is 13</choice>
+    <choice>It is 7</choice>
+    <choice>It is 11</choice>
+    <answer>0</answer>
+  </question>
+  <question>
+    <text>What is 1 + 9?</text>
+    <choice>It is 10</choice>
+    <choice>It is 14</choice>
+    <choice>It is 11</choice>
+    <choice>It is 9</choice>
+    <answer>0</answer>
+  </question>
+  <question>
+    <text>What is 1 + 7?</text>
+    <choice>It is 6</choice>
+    <choice>It is 10</choice>
+    <choice>It is 16</choice>
+    <choice>It is 8</choice>
+    <answer>3</answer>
+  </question>
+  <question>
+    <text>What is 9 + 1?</text>
+    <choice>It is 13</choice>
+    <choice>It is 10</choice>
+    <choice>It is 16</choice>
+    <choice>It is 8</choice>
+    <answer>1</answer>
+  </question>
+  <question>
+    <text>What is 5 + 7?</text>
+    <choice>It is 7</choice>
+    <choice>It is 15</choice>
+    <choice>It is 12</choice>
+    <choice>It is 19</choice>
+    <answer>2</answer>
+  </question>
+  <question>
+    <text>What is 4 + 2?</text>
+    <choice>It is 6</choice>
+    <choice>It is 8</choice>
+    <choice>It is 10</choice>
+    <choice>It is 12</choice>
+    <answer>0</answer>
+  </question>
+  <question>
+    <text>What is 5 + 1?</text>
+    <choice>It is 9</choice>
+    <choice>It is 10</choice>
+    <choice>It is 6</choice>
+    <choice>It is 17</choice>
+    <answer>2</answer>
+  </question>
+  <question>
+    <text>What is 2 + 9?</text>
+    <choice>It is 9</choice>
+    <choice>It is 3</choice>
+    <choice>It is 11</choice>
+    <choice>It is 10</choice>
+    <answer>2</answer>
+  </question>
+  <question>
+    <text>What is 6 + 5?</text>
+    <choice>It is 3</choice>
+    <choice>It is 11</choice>
+    <choice>It is 13</choice>
+    <choice>It is 4</choice>
+    <answer>1</answer>
+  </question>
+  <question>
+    <text>What is 3 + 9?</text>
+    <choice>It is 4</choice>
+    <choice>It is 16</choice>
+    <choice>It is 12</choice>
+    <choice>It is 3</choice>
+    <answer>2</answer>
+  </question>
+  <question>
+    <text>What is 3 + 8?</text>
+    <choice>It is 7</choice>
+    <choice>It is 11</choice>
+    <choice>It is 18</choice>
+    <choice>It is 13</choice>
+    <answer>1</answer>
+  </question>
+  <question>
+    <text>What is 6 + 7?</text>
+    <choice>It is 14</choice>
+    <choice>It is 13</choice>
+    <choice>It is 2</choice>
+    <choice>It is 15</choice>
+    <answer>1</answer>
+  </question>
+  <question>
+    <text>What is 7 + 9?</text>
+    <choice>It is 1</choice>
+    <choice>It is 8</choice>
+    <choice>It is 16</choice>
+    <choice>It is 18</choice>
+    <answer>2</answer>
+  </question>
+  <question>
+    <text>What is 6 + 6?</text>
+    <choice>It is 9</choice>
+    <choice>It is 14</choice>
+    <choice>It is 12</choice>
+    <choice>It is 5</choice>
+    <answer>2</answer>
+  </question>
+  <question>
+    <text>What is 9 + 7?</text>
+    <choice>It is 2</choice>
+    <choice>It is 16</choice>
+    <choice>It is 11</choice>
+    <choice>It is 14</choice>
+    <answer>1</answer>
+  </question>
+  <question>
+    <text>What is 9 + 4?</text>
+    <choice>It is 3</choice>
+    <choice>It is 13</choice>
+    <choice>It is 4</choice>
+    <choice>It is 18</choice>
+    <answer>1</answer>
+  </question>
+  <question>
+    <text>What is 6 + 3?</text>
+    <choice>It is 8</choice>
+    <choice>It is 9</choice>
+    <choice>It is 11</choice>
+    <choice>It is 13</choice>
+    <answer>1</answer>
+  </question>
+  <question>
+    <text>What is 6 + 2?</text>
+    <choice>It is 13</choice>
+    <choice>It is 3</choice>
+    <choice>It is 6</choice>
+    <choice>It is 8</choice>
+    <answer>3</answer>
+  </question>
+  <question>
+    <text>What is 3 + 5?</text>
+    <choice>It is 8</choice>
+    <choice>It is 19</choice>
+    <choice>It is 10</choice>
+    <choice>It is 6</choice>
+    <answer>0</answer>
+  </question>
+  <question>
+    <text>What is 8 + 8?</text>
+    <choice>It is 1</choice>
+    <choice>It is 8</choice>
+    <choice>It is 16</choice>
+    <choice>It is 12</choice>
+    <answer>2</answer>
+  </question>
+  <question>
+    <text>What is 5 + 5?</text>
+    <choice>It is 19</choice>
+    <choice>It is 14</choice>
+    <choice>It is 10</choice>
+    <choice>It is 16</choice>
+    <answer>2</answer>
+  </question>
+  <question>
+    <text>What is 9 + 6?</text>
+    <choice>It is 2</choice>
+    <choice>It is 15</choice>
+    <choice>It is 14</choice>
+    <choice>It is 7</choice>
+    <answer>1</answer>
+  </question>
+  <question>
+    <text>What is 4 + 7?</text>
+    <choice>It is 13</choice>
+    <choice>It is 10</choice>
+    <choice>It is 1</choice>
+    <choice>It is 11</choice>
+    <answer>3</answer>
+  </question>
+  <question>
+    <text>What is 6 + 7?</text>
+    <choice>It is 13</choice>
+    <choice>It is 8</choice>
+    <choice>It is 19</choice>
+    <choice>It is 11</choice>
+    <answer>0</answer>
+  </question>
+  <question>
+    <text>What is 1 + 5?</text>
+    <choice>It is 12</choice>
+    <choice>It is 1</choice>
+    <choice>It is 6</choice>
+    <choice>It is 4</choice>
+    <answer>2</answer>
+  </question>
+  <question>
+    <text>What is 5 + 1?</text>
+    <choice>It is 14</choice>
+    <choice>It is 4</choice>
+    <choice>It is 6</choice>
+    <choice>It is 17</choice>
+    <answer>2</answer>
+  </question>
+  <question>
+    <text>What is 8 + 8?</text>
+    <choice>It is 16</choice>
+    <choice>It is 6</choice>
+    <choice>It is 7</choice>
+    <choice>It is 19</choice>
+    <answer>0</answer>
+  </question>
+  <question>
+    <text>What is 1 + 8?</text>
+    <choice>It is 17</choice>
+    <choice>It is 12</choice>
+    <choice>It is 6</choice>
+    <choice>It is 9</choice>
+    <answer>3</answer>
+  </question>
+  <question>
+    <text>What is 2 + 8?</text>
+    <choice>It is 12</choice>
+    <choice>It is 15</choice>
+    <choice>It is 6</choice>
+    <choice>It is 10</choice>
+    <answer>3</answer>
+  </question>
+  <question>
+    <text>What is 4 + 5?</text>
+    <choice>It is 14</choice>
+    <choice>It is 19</choice>
+    <choice>It is 1</choice>
+    <choice>It is 9</choice>
+    <answer>3</answer>
+  </question>
+  <question>
+    <text>What is 7 + 4?</text>
+    <choice>It is 14</choice>
+    <choice>It is 11</choice>
+    <choice>It is 1</choice>
+    <choice>It is 16</choice>
+    <answer>1</answer>
+  </question>
+  <question>
+    <text>What is 1 + 9?</text>
+    <choice>It is 16</choice>
+    <choice>It is 14</choice>
+    <choice>It is 15</choice>
+    <choice>It is 10</choice>
+    <answer>3</answer>
+  </question>
+  <question>
+    <text>What is 8 + 7?</text>
+    <choice>It is 2</choice>
+    <choice>It is 14</choice>
+    <choice>It is 5</choice>
+    <choice>It is 15</choice>
+    <answer>3</answer>
+  </question>
+  <question>
+    <text>What is 3 + 4?</text>
+    <choice>It is 11</choice>
+    <choice>It is 7</choice>
+    <choice>It is 2</choice>
+    <choice>It is 3</choice>
+    <answer>1</answer>
+  </question>
+  <question>
+    <text>What is 3 + 7?</text>
+    <choice>It is 3</choice>
+    <choice>It is 10</choice>
+    <choice>It is 18</choice>
+    <choice>It is 17</choice>
+    <answer>1</answer>
+  </question>
+  <question>
+    <text>What is 3 + 4?</text>
+    <choice>It is 18</choice>
+    <choice>It is 7</choice>
+    <choice>It is 3</choice>
+    <choice>It is 11</choice>
+    <answer>1</answer>
+  </question>
+  <question>
+    <text>What is 8 + 8?</text>
+    <choice>It is 9</choice>
+    <choice>It is 2</choice>
+    <choice>It is 16</choice>
+    <choice>It is 13</choice>
+    <answer>2</answer>
+  </question>
+  <question>
+    <text>What is 8 + 6?</text>
+    <choice>It is 14</choice>
+    <choice>It is 19</choice>
+    <choice>It is 3</choice>
+    <choice>It is 9</choice>
+    <answer>0</answer>
+  </question>
+  <question>
+    <text>What is 8 + 4?</text>
+    <choice>It is 7</choice>
+    <choice>It is 15</choice>
+    <choice>It is 12</choice>
+    <choice>It is 1</choice>
+    <answer>2</answer>
+  </question>
+  <question>
+    <text>What is 3 + 4?</text>
+    <choice>It is 13</choice>
+    <choice>It is 14</choice>
+    <choice>It is 7</choice>
+    <choice>It is 16</choice>
+    <answer>2</answer>
+  </question>
+  <question>
+    <text>What is 1 + 6?</text>
+    <choice>It is 7</choice>
+    <choice>It is 11</choice>
+    <choice>It is 5</choice>
+    <choice>It is 19</choice>
+    <answer>0</answer>
+  </question>
+  <question>
+    <text>What is 6 + 8?</text>
+    <choice>It is 1</choice>
+    <choice>It is 14</choice>
+    <choice>It is 17</choice>
+    <choice>It is 7</choice>
+    <answer>1</answer>
+  </question>
+  <question>
+    <text>What is 5 + 8?</text>
+    <choice>It is 13</choice>
+    <choice>It is 10</choice>
+    <choice>It is 11</choice>
+    <choice>It is 2</choice>
+    <answer>0</answer>
+  </question>
+  <question>
+    <text>What is 2 + 6?</text>
+    <choice>It is 2</choice>
+    <choice>It is 6</choice>
+    <choice>It is 8</choice>
+    <choice>It is 3</choice>
+    <answer>2</answer>
+  </question>
+  <question>
+    <text>What is 8 + 5?</text>
+    <choice>It is 17</choice>
+    <choice>It is 19</choice>
+    <choice>It is 13</choice>
+    <choice>It is 9</choice>
+    <answer>2</answer>
+  </question>
+  <question>
+    <text>What is 6 + 8?</text>
+    <choice>It is 14</choice>
+    <choice>It is 11</choice>
+    <choice>It is 1</choice>
+    <choice>It is 13</choice>
+    <answer>0</answer>
+  </question>
+  <question>
+    <text>What is 6 + 5?</text>
+    <choice>It is 17</choice>
+    <choice>It is 8</choice>
+    <choice>It is 5</choice>
+    <choice>It is 11</choice>
+    <answer>3</answer>
+  </question>
+  <question>
+    <text>What is 7 + 8?</text>
+    <choice>It is 2</choice>
+    <choice>It is 15</choice>
+    <choice>It is 16</choice>
+    <choice>It is 4</choice>
+    <answer>1</answer>
+  </question>
+  <question>
+    <text>What is 5 + 6?</text>
+    <choice>It is 7</choice>
+    <choice>It is 1</choice>
+    <choice>It is 3</choice>
+    <choice>It is 11</choice>
+    <answer>3</answer>
+  </question>
+  <question>
+    <text>What is 7 + 8?</text>
+    <choice>It is 15</choice>
+    <choice>It is 3</choice>
+    <choice>It is 12</choice>
+    <choice>It is 16</choice>
+    <answer>0</answer>
+  </question>
+
+
+
+
+<question>
+    <text>What is 17 - 8?</text>
+    <choice>It is 9</choice>
+    <choice>It is 10</choice>
+    <choice>It is 5</choice>
+    <choice>It is 12</choice>
+    <answer>0</answer>
+  </question>
+<question>
+    <text>What is 7 - 4?</text>
+    <choice>It is 3</choice>
+    <choice>It is 4</choice>
+    <choice>It is 2</choice>
+    <choice>It is 6</choice>
+    <answer>0</answer>
+  </question>
+<question>
+    <text>What is 14 - 6?</text>
+    <choice>It is 9</choice>
+    <choice>It is 8</choice>
+    <choice>It is 10</choice>
+    <choice>It is 11</choice>
+    <answer>1</answer>
+  </question>
+<question>
+    <text>What is 15 - 9?</text>
+    <choice>It is 9</choice>
+    <choice>It is 3</choice>
+    <choice>It is 8</choice>
+    <choice>It is 6</choice>
+    <answer>3</answer>
+  </question>
+<question>
+    <text>What is 17 - 7?</text>
+    <choice>It is 10</choice>
+    <choice>It is 3</choice>
+    <choice>It is 12</choice>
+    <choice>It is 11</choice>
+    <answer>0</answer>
+  </question>
+<question>
+    <text>What is 20 - 14?</text>
+    <choice>It is 5</choice>
+    <choice>It is 3</choice>
+    <choice>It is 2</choice>
+    <choice>It is 6</choice>
+    <answer>3</answer>
+  </question>
+<question>
+    <text>What is 15 - 2?</text>
+    <choice>It is 13</choice>
+    <choice>It is 11</choice>
+    <choice>It is 12</choice>
+    <choice>It is 16</choice>
+    <answer>0</answer>
+  </question>
+<question>
+    <text>What is 22 - 14?</text>
+    <choice>It is 15</choice>
+    <choice>It is 13</choice>
+    <choice>It is 12</choice>
+    <choice>It is 8</choice>
+    <answer>3</answer>
+  </question>
+
+
+
+<question>
+    <text>What is 4 x 4?</text>
+    <choice>It is 15</choice>
+    <choice>It is 3</choice>
+    <choice>It is 12</choice>
+    <choice>It is 16</choice>
+    <answer>3</answer>
+  </question>
+<question>
+    <text>What is 7 x 2 ?</text>
+    <choice>It is 15</choice>
+    <choice>It is 3</choice>
+    <choice>It is 14</choice>
+    <choice>It is 16</choice>
+    <answer>2</answer>
+  </question>
+<question>
+    <text>What is 9 x 3 ?</text>
+    <choice>It is 15</choice>
+    <choice>It is 3</choice>
+    <choice>It is 27</choice>
+    <choice>It is 26</choice>
+    <answer>2</answer>
+  </question>
+<question>
+    <text>What is 5 x 5 ?</text>
+    <choice>It is 15</choice>
+    <choice>It is 25</choice>
+    <choice>It is 42</choice>
+    <choice>It is 36</choice>
+    <answer>1</answer>
+  </question>
+<question>
+    <text>What is 7 x 3?</text>
+    <choice>It is 15</choice>
+    <choice>It is 3</choice>
+    <choice>It is 21</choice>
+    <choice>It is 26</choice>
+    <answer>2</answer>
+  </question>
+<question>
+    <text>What is 3 x 8?</text>
+    <choice>It is 15</choice>
+    <choice>It is 23</choice>
+    <choice>It is 24</choice>
+    <choice>It is 16</choice>
+    <answer>2</answer>
+  </question>
+<question>
+    <text>What is 6 x 2?</text>
+    <choice>It is 15</choice>
+    <choice>It is 3</choice>
+    <choice>It is 12</choice>
+    <choice>It is 16</choice>
+    <answer>2</answer>
+  </question>
+<question>
+    <text>What is 10 x 5?</text>
+    <choice>It is 50</choice>
+    <choice>It is 35</choice>
+    <choice>It is 25</choice>
+    <choice>It is 60</choice>
+    <answer>0</answer>
+  </question>
+
+<question>
+    <text>What is 14 divided by 2?</text>
+    <choice>It is 6</choice>
+    <choice>It is 3</choice>
+    <choice>It is 7</choice>
+    <choice>It is 5</choice>
+    <answer>2</answer>
+  </question>
+<question>
+    <text>What is 15 divided by 5 ?</text>
+    <choice>It is 15</choice>
+    <choice>It is 3</choice>
+    <choice>It is 2</choice>
+    <choice>It is 6</choice>
+    <answer>1</answer>
+  </question>
+<question>
+    <text>What is 24 divided by 3?</text>
+    <choice>It is 15</choice>
+    <choice>It is 3</choice>
+    <choice>It is 9</choice>
+    <choice>It is 8</choice>
+    <answer>3</answer>
+  </question>
+<question>
+    <text>What is 20 divided by 5?</text>
+    <choice>It is 5</choice>
+    <choice>It is 3</choice>
+    <choice>It is 4</choice>
+    <choice>It is 6</choice>
+    <answer>2</answer>
+  </question>
+
+</category>
+
+
+
+	<category>
+		<!-- Questions can include an image and/or audio with the "image" and "audio" 
+			tags. The files are given as asset paths (relative to the "assets" directory). 
+			Any commonly used file format should be ok. Specific sounds formats are here: 
+			http://developer.android.com/guide/appendix/media-formats.html -->
+		<title>Guess the Sound of the Animals</title>
+		<text>Sounds</text>  
+		
+		<question>
+			<text>What animal made that sound?</text>
+			<audio>audio/cow-moo.wav</audio>
+			<choice>Pig</choice>
+			<choice>Alpaca</choice>
+			<choice>Cow</choice>
+			<answer>2</answer>
+		</question>
+		
+		<question>
+			<text>What animal made that sound?</text>
+			<audio>audio/CAT.wav</audio>
+			<choice>Pig</choice>
+			<choice>CAT</choice>
+			<choice>Cow</choice>
+			<answer>1</answer>
+		</question>
+		
+		<question>
+			<text>What animal made that sound?</text>
+			<audio>audio/DOG.wav</audio>
+			<choice>Pig</choice>
+			<choice>Horse</choice>
+			<choice>Cow</choice>
+			<choice>Dog</choice>
+			<answer>3</answer>
+		</question>
+
+		<question>
+			<text>What animal made that sound?</text>
+			<audio>audio/ELEPHANT.wav</audio>
+			<choice>lion</choice>
+			<choice>Cat</choice>
+			<choice>Elephant</choice>
+			<choice>Goat</choice>
+			<answer>2</answer>
+		</question>
+		
+		<question>
+			<text>What animal made that sound?</text>
+			<audio>audio/GOAT.wav</audio>
+			<choice>Goat</choice>
+			<choice>Pig</choice>
+			<choice>Cow</choice>
+			<answer>0</answer>
+		</question>
+		
+		<question>
+			<text>What animal made that sound?</text>
+			<audio>audio/HORSE.wav</audio>
+			<choice>Goat</choice>
+			<choice>Cow</choice>
+			<choice>Horse</choice>
+			<answer>2</answer>
+		</question>
+		
+		<question>
+			<text>What animal made that sound?</text>
+			<audio>audio/LION.wav</audio>
+			<choice>Elephant</choice>
+			<choice>Pig</choice>
+			<choice>Lion</choice>
+			<answer>2</answer>
+		</question>
+				
+		<!-- <question>
+			<text>
+				This image should be <![CDATA[<b>big!</b>]]>
+			</text>
+			<image>images/platlogo.png</image>
+			<choice>Just another choice...</choice>
+			<answer>0</answer>
+		</question> -->
+		
+	</category>
+	
+</quiz>

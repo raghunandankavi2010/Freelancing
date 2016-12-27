@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, DemoBank!</string>
+    <string name="app_name">DemoBank</string>
+    
+    <string-array name="c">
+        <item>India</item>
+        <item>USA</item>
+        <item>UK</item>
+        <item>Australia</item>
+        <item>Afghanistan</item>
+        <item>Bulgaria</item>
+        <item>China</item>
+        <item>Norway</item>
+    </string-array>
+    
+    
+    <color name="selected">#6F535C</color>
+    <color name="nselected">#1D1816</color>
+    
+    
+</resources>

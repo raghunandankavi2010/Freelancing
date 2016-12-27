@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/bg">
+    <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:text="My Account" android:textSize="20sp" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_marginTop="5dp" android:textColor="#012529"></TextView>
+    <ImageView android:id="@+id/imageView1" android:src="@drawable/myaccount" android:layout_width="fill_parent" android:fitsSystemWindows="true" android:scaleType="fitXY" android:layout_marginLeft="3dp" android:layout_marginRight="3dp" android:layout_height="120dp"></ImageView>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_margin="4dp">
+        <TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tableLayout1">
+            <TableRow android:id="@+id/tt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#CDCEC7" android:layout_marginBottom="3dp" android:paddingLeft="5dp">
+            <TextView android:id="@+id/ac1" android:layout_height="wrap_content" android:text="Current Account" android:layout_width="wrap_content"  android:textColor="#012529" android:paddingBottom="6dp" android:paddingTop="6dp" android:textSize="15sp"></TextView>
+            <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2548695" android:textColor="#73422C" android:layout_marginLeft="90dp"></TextView>
+            </TableRow>
+            <TableRow android:id="@+id/tt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#CDCEC7" android:layout_marginBottom="3dp" android:paddingLeft="5dp">
+            <TextView android:id="@+id/ac2" android:layout_height="wrap_content" android:text="Savings Account" android:layout_width="wrap_content"  android:textColor="#012529" android:paddingBottom="6dp" android:paddingTop="6dp" android:textSize="15sp"></TextView>
+            <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3645987" android:textColor="#73422C" android:layout_marginLeft="90dp"></TextView>
+            </TableRow>
+            <TableRow android:id="@+id/tt3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="#CDCEC7" android:layout_marginBottom="3dp" android:paddingLeft="5dp">
+            <TextView android:id="@+id/ac3" android:layout_height="wrap_content" android:text="Fixed deposit Account" android:layout_width="wrap_content"  android:textColor="#012529" android:paddingBottom="6dp" android:paddingTop="6dp" android:textSize="15sp"></TextView>
+            <TextView android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6985421" android:textColor="#73422C" android:layout_marginLeft="90dp"></TextView>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout> 
+    
+    
+    </LinearLayout>

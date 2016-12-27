@@ -1,0 +1,92 @@
+# view res/layout/map.xml #generated:36
+# view small\res/layout-small/map.xml #generated:36
+-keep class com.google.android.maps.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:238
+-keep class proto.idss.maplebear.About { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class proto.idss.maplebear.AboutUs { <init>(...); }
+
+# view AndroidManifest.xml #generated:162
+-keep class proto.idss.maplebear.AdmissionEnquiry { <init>(...); }
+
+# view AndroidManifest.xml #generated:256
+-keep class proto.idss.maplebear.CarouselTestActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:220
+-keep class proto.idss.maplebear.Categories { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class proto.idss.maplebear.Centers { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class proto.idss.maplebear.ContactUs { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class proto.idss.maplebear.Curriculum { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class proto.idss.maplebear.DetailView { <init>(...); }
+
+# view AndroidManifest.xml #generated:171
+-keep class proto.idss.maplebear.DisplayAlbum { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+-keep class proto.idss.maplebear.DisplayImage { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class proto.idss.maplebear.Edutainer { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class proto.idss.maplebear.Facilities { <init>(...); }
+
+# view AndroidManifest.xml #generated:181
+-keep class proto.idss.maplebear.FingerPaintActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:190
+-keep class proto.idss.maplebear.Games { <init>(...); }
+
+# view AndroidManifest.xml #generated:210
+-keep class proto.idss.maplebear.HowToPlay { <init>(...); }
+
+# view AndroidManifest.xml #generated:126
+-keep class proto.idss.maplebear.Image { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class proto.idss.maplebear.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:199
+-keep class proto.idss.maplebear.Manager { <init>(...); }
+
+# view res/layout/carousel_test.xml #generated:27
+-keep class proto.idss.maplebear.MyCarouselView { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class proto.idss.maplebear.News { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class proto.idss.maplebear.OwnSchool { <init>(...); }
+
+# view AndroidManifest.xml #generated:229
+-keep class proto.idss.maplebear.Quiz { <init>(...); }
+
+# view res/layout/multiple_choice_fragment_fixed_buttons.xml #generated:38
+# view res/layout/multiple_choice_fragment_fixed_buttons.xml #generated:44
+# view res/layout/multiple_choice_fragment_fixed_buttons.xml #generated:50
+# view res/layout/multiple_choice_fragment_fixed_buttons.xml #generated:56
+# view res/layout/multiple_choice_fragment_scroll_buttons.xml #generated:30
+# view res/layout/multiple_choice_fragment_scroll_buttons.xml #generated:38
+# view res/layout/multiple_choice_fragment_scroll_buttons.xml #generated:46
+# view res/layout/multiple_choice_fragment_scroll_buttons.xml #generated:52
+-keep class proto.idss.maplebear.QuizButton { <init>(...); }
+
+# view AndroidManifest.xml #generated:247
+-keep class proto.idss.maplebear.Settings { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class proto.idss.maplebear.Splash { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class proto.idss.maplebear.Youtube { <init>(...); }
+

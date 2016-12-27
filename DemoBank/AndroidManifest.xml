@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="idss.bank.demo"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="5" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name="idss.bank.demo.FundTransfer"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+      
+             <activity android:name="idss.bank.demo.MyMenu"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.MyMenu" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+          <activity android:name="idss.bank.demo.MyAccount"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.MyAccount" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+         <activity android:name="idss.bank.demo.MyLogin"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.MyLogin" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+        <activity android:name="idss.bank.demo.ThisAccount"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.ThisAccount" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>  
+        
+        <activity android:name="idss.bank.demo.FundTransfer"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.FundTransfer" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        
+         <activity android:name="idss.bank.demo.ConfirmTransfer"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="idss.bank.demo.ConfirmTransfer" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+        
+        <activity android:name=".FirstTab" />
+	<activity android:name=".SecondTab" />
+
+    </application>
+    
+    
+    
+    
+</manifest>
