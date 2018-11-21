@@ -1,5 +1,5 @@
 # Freelancing
 
-A java swing project for engineering students. 
+A java swing project for 8th semester. ( For engineering students). 
 
-The studetns were doing this project in ISRO.
+The students were doing this project in ISRO.
